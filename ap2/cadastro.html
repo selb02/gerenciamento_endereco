@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="/img/EP-VM-CLARO.png" rel="shortcut icon" type="image/x-icon" />
+
+    <title>Easy Place</title>
+</head>
+
+<body>
+    <div id="logo">
+        <a href="./index.html"><img src="/img/EP-TELHADO-PRETO edit.png" alt=""></img></a>
+    </div>
+
+    <main>
+        
+
+        <div class="container">
+            <div class="informacoes">
+                <h1>Bem-Vindo ao Easy Place</h1>
+
+                <h1>O lugar ideal para encontrar o melhor destino</h1>
+
+                <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </div>
+
+            <div class="caixa-form">
+                <form>
+
+                    <div class="input-box">
+                        <input type="text" class="input-text" id="name" placeholder="Nome Completo *">
+                        <span class="obrigatorio">campo obrigatorio</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" class="input-text" id="email" placeholder="Email *">
+                        <span class="obrigatorio">campo obrigatorio</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" class="input-text" id="password" placeholder="Senha *">
+                        <span class="obrigatorio">campo obrigatorio</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" class="input-text" id="cpf_cnpj" placeholder="CPF ou CNPJ *">
+                        <span class="obrigatorio">campo obrigatorio</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="date" class="input-text" id="birthday">
+                        <span class="obrigatorio">campo obrigatorio</span>
+                    </div>
+
+                    <div class="input-box">
+                        <ol class="termos">
+                            <li>
+                                <input type="checkbox" name = "terms" id="terms" >
+                            </li>
+        
+                            <li class="aceite">
+                                <label for="terms"><p>Política de Privacidade e Termos de Uso</p></label>
+                                <span class="obrigatorio">Aceite os termos e condições para continuar</span>
+                            </li>
+                        </ol>
+                    </div>
+
+                    
+                        <p id="link-login">Já tem uma conta?<a href="./login.html"> Fazer Login</a></p>
+
+                    <input type="button" class="button" value="Cadastra-se" onclick="cadastro()"/>
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./script/cadastro.js"></script>
+</body>
+
+</html>
